@@ -42,7 +42,7 @@ Substitua este texto por uma descrição do processo de desenvolvimento, explica
 
 #### Tecnologias
 
-Html, CSS
+Html, CSS, javascript
 
 #### Ambiente de desenvolvimento
 
