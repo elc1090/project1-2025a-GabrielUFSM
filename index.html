@@ -1,12 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="light-mode">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike Brasil - Tênis, Roupas e Acessórios</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+    <!-- Sidebar -->
+    <div class="mobile-sidebar" id="mobileSidebar">
+        <div class="sidebar-header">
+            <img src="img/nike-logo.svg" alt="Nike" class="sidebar-logo">
+            <button id="closeSidebar" class="close-sidebar">&times;</button>
+        </div>
+        <div class="sidebar-content">
+            <nav class="sidebar-nav">
+                <a href="#">Lançamentos</a>
+                <a href="#">Ofertas</a>
+                <a href="#">Masculino</a>
+                <a href="#">Feminino</a>
+                <a href="#">Infantil</a>
+                <a href="#">SNKRS</a>
+            </nav>
+            <div class="sidebar-utility">
+                <a href="#">Acessibilidade</a>
+                <a href="#">Nike Journal</a>
+                <a href="#">Ajuda</a>
+                <a href="#">Junte-se a nós</a>
+                <a href="#" class="login-btn">Entrar</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    
     <header>
         <div class="top-bar">
             <div class="container">
@@ -48,10 +76,13 @@
                             </button>
                             <input type="text" placeholder="Buscar">
                         </div>
+                        <button id="darkModeToggle" class="dark-mode-btn">
+                            <i class="fas fa-moon"></i>
+                        </button>
                         <button class="favorites-btn">❤</button>
                         <button class="cart-btn">🛒</button>
                     </div>
-                    <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+                    <button id="openSidebar" class="mobile-menu-btn" aria-label="Menu">☰</button>
                 </nav>
             </div>
         </div>
@@ -64,5 +95,7 @@
 
     <footer>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

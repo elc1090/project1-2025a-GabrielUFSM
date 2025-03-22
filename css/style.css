@@ -1,12 +1,39 @@
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root {
+    --bg-color: #ffffff;
+    --text-color: #111111;
+    --nav-bg: #ffffff;
+    --sidebar-bg: #ffffff;
+    --search-bg: #f5f5f5;
+    --border-color: #e5e5e5;
+    --top-bar-bg: #f5f5f5;
+    --btn-hover: #e5e5e5;
+}
+
+html.dark-mode {
+    --bg-color:    #0D1117;
+    --text-color:  #C9D1D9;
+    --nav-bg:      #161B22;
+    --sidebar-bg:  #161B22;
+    --search-bg:   #21262D;
+    --border-color:#30363D;
+    --top-bar-bg:  #0D1117;
+    --btn-hover:   #21262D; 
+}
+
+
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .container {
@@ -15,10 +42,12 @@ body {
     padding: 0 15px;
 }
 
+/* Barra superior */
 .top-bar {
-    background-color: #f5f5f5;
+    background-color: var(--top-bar-bg);
     padding: 8px 0;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid var(--border-color);
+    transition: background-color 0.3s;
 }
 
 .utility-nav {
@@ -32,23 +61,26 @@ body {
     gap: 20px;
 }
 
-.utility-links a {
+.utility-links a, .sidebar-utility a {
     text-decoration: none;
-    color: #111;
+    color: var(--text-color);
     font-size: 12px;
+    transition: color 0.3s;
 }
 
 .snkrs-logo {
     font-weight: bold;
     text-decoration: none;
-    color: #111;
+    color: var(--text-color);
+    transition: color 0.3s;
 }
 
-/* Navbar */
+/* Navbar principal */
 .main-nav-container {
-    background-color: white;
+    background-color: var(--nav-bg);
     padding: 15px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
 }
 
 .main-nav {
@@ -57,8 +89,15 @@ body {
     align-items: center;
 }
 
-.nike-logo img {
+.nike-logo img, .sidebar-logo {
     height: 25px;
+    filter: invert(var(--logo-invert));
+    transition: filter 0.3s;
+}
+
+html.dark-mode .nike-logo img,
+html.dark-mode .sidebar-logo {
+    filter: invert(1);
 }
 
 .nav-links {
@@ -66,10 +105,11 @@ body {
     gap: 30px;
 }
 
-.nav-links a {
+.nav-links a, .sidebar-nav a {
     text-decoration: none;
-    color: #111;
+    color: var(--text-color);
     font-weight: 500;
+    transition: color 0.3s;
 }
 
 .nav-actions {
@@ -81,9 +121,10 @@ body {
 .search-box {
     display: flex;
     align-items: center;
-    background-color: #f5f5f5;
+    background-color: var(--search-bg);
     border-radius: 20px;
     padding: 5px 10px;
+    transition: background-color 0.3s;
 }
 
 .search-box input {
@@ -91,30 +132,114 @@ body {
     background: transparent;
     outline: none;
     padding: 5px;
+    color: var(--text-color);
+    transition: color 0.3s;
 }
 
 .search-btn {
     background: none;
     border: none;
     cursor: pointer;
+    color: var(--text-color);
+    transition: color 0.3s;
 }
 
-.favorites-btn, .cart-btn {
+.favorites-btn, .cart-btn, .dark-mode-btn, .mobile-menu-btn {
     background: none;
     border: none;
     cursor: pointer;
     font-size: 20px;
+    color: var(--text-color);
+    transition: color 0.3s;
+}
+
+.dark-mode-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.dark-mode-btn:hover, .mobile-menu-btn:hover {
+    background-color: var(--btn-hover);
 }
 
 .mobile-menu-btn {
     display: none;
+    font-size: 24px;
+}
+
+/* Mobile Sidebar */
+.mobile-sidebar {
+    position: fixed;
+    top: 0;
+    right: -280px;
+    width: 280px;
+    height: 100%;
+    background-color: var(--sidebar-bg);
+    z-index: 1000;
+    overflow-y: auto;
+    transition: right 0.3s ease;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.mobile-sidebar.active {
+    right: 0;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.close-sidebar {
     background: none;
     border: none;
     font-size: 24px;
     cursor: pointer;
+    color: var(--text-color);
 }
 
-/* Mobile */
+.sidebar-content {
+    padding: 20px;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.sidebar-utility {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+}
+
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+
+.sidebar-overlay.active {
+    display: block;
+}
+
+/* Para mobile */
 @media (max-width: 768px) {
     .utility-links {
         display: none;
