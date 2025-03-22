@@ -16,18 +16,18 @@ Acesso: Substitua este texto pela URL para acesso ao site publicado
 
 
 #### Desenvolvedor(a)
-Substitua este texto pela sua identificação: nome e curso
+Gabriel Bisognin Moro
+Ciência da computação
 
 #### Cliente
-Substitua este texto pela identificação do cliente
-
+Breno
 
 
 
 #### Site/app original
 
 ##### Link
-Substitua este texto pela URL do site/app escolhido
+https://www.nike.com.br
 
 ##### Descrição
 Substitua este texto por uma descrição do site/app escolhido. Inclua observações sobre seu conteúdo, aparência e código.
@@ -42,16 +42,12 @@ Substitua este texto por uma descrição do processo de desenvolvimento, explica
 
 #### Tecnologias
 
-Substitua este trecho por uma lista detalhada de tecnologias usadas (tanto as básicas, como HTML e CSS, como as mais específicas, por exemplo Tailwind, etc.):
-- ...
-- ...
-- 
+Html, CSS
 
 #### Ambiente de desenvolvimento
 
-Substitua este trecho por uma lista detalhada dos ambientes/ferramentas de desenvolvimento que você usou (por exemplo, VS Code + alguma extensão, etc.)
-- ...
-- ...
+Vscode
+Live Preview https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server
 
 #### Referências e créditos
 
