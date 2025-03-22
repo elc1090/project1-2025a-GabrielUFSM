@@ -33,7 +33,7 @@ https://www.nike.com.br
 Substitua este texto por uma descrição do site/app escolhido. Inclua observações sobre seu conteúdo, aparência e código.
 
 #### Demanda do(a) cliente
-Substitua este texto pela demanda do(a) cliente
+Remake de: Navbar, conteúdo principal e footer. Sidebar para telas mobile
 
 #### Desenvolvimento
 
