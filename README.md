@@ -55,8 +55,8 @@ Vscode
 #### Referências e créditos
 
 Substitua este trecho por uma lista bem detalhada de todo material que você consultou para ajudar no projeto, por exemplo:  URL de templates usados, URL de icon kits usados, créditos para colegas que colaboraram, geradores de código (incluindo alguns prompts usados para o ChatGPT, se for o caso)
-- ...
-- ...
+- Para a formatação do REAME segui o exemplo da página [github](https://github.com/elc1090/project1-2024a-pizzutta) que está na página de entrega do projeto.
+- Para as cores do modo escuro, enviei a paleta de cores normal e pedi que o chatgpt criasse uma paleta de modo escuro.
 
 
 
