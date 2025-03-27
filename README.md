@@ -58,8 +58,9 @@ Vscode
 - Para a formatação do REAME segui o exemplo da página [github](https://github.com/elc1090/project1-2024a-pizzutta) que está na página de entrega do projeto.
 - Para as cores do modo escuro, enviei a paleta de cores normal e pedi que o chatgpt criasse uma paleta de modo escuro.
 
-
-
+```
+todo: colocar o prompt aqui
+```
 
 ---
 Projeto entregue para a disciplina de [Desenvolvimento de Software para a Web](http://github.com/andreainfufsm/elc1090-2025a) em 2025a
