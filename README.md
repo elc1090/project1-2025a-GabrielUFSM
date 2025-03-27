@@ -16,7 +16,7 @@ Acesso: Substitua este texto pela URL para acesso ao site publicado
 
 
 #### Desenvolvedor(a)
-Gabriel Bisognin Moro
+Gabriel Bisognin Moro  
 Ciência da computação
 
 #### Cliente
