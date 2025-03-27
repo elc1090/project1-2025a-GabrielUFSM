@@ -37,8 +37,14 @@ Remake de: Navbar, conteúdo principal e footer. Sidebar para telas mobile
 
 #### Desenvolvimento
 
-Substitua este texto por uma descrição do processo de desenvolvimento, explicando suas escolhas para o remake e etapas do trabalho (por exemplo, como foi coletado o conteúdo, como você lidou com as demandas, etc.)
+Substitua este texto por uma descrição do processo de desenvolvimento, explicando suas escolhas para o remake e etapas do trabalho (por exemplo, como foi coletado o conteúdo, como você lidou com as demandas, etc.)  
 
+##1-
+Fiz o esqueleto da página, com placeholders, baseado na separação do sit da nike, em seguida fiz o .css com as cores do site e implementei uma navbar básica no html, esse foi o primeiro commit.
+##2-
+Depois implementei a sidebar para telas mobile, usando javascript. Aproveitei que aprendi javascript e implementei um toggle para ativar ou desativar um modo noturno no site, para o conjunto de cores escuras, perguntei para o chatgpt quais usar.  
+##3-
+Com a navbar e a sidebar prontos, implementei o conteúdo princípal do site, as imagens foram obtidas a partir de links no html do site original. O site utiliza formatos diferentes de banners, separei entre "banner-section", que são os banners principais, grandes, "icons-section", uma seção de "ícones nike", que são banners menores, lado a lado e, por fim, "also-known-section", a seção de "conheça também", que são 3 banners verticais lado a lado, no estilo de carousel, que leva a outras seções no site original. 
 
 #### Tecnologias
 
@@ -46,8 +52,8 @@ Html, CSS, javascript
 
 #### Ambiente de desenvolvimento
 
-Vscode
-Live Preview https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server
+Vscode  
+[Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
 
 #### Referências e créditos
 
