@@ -11,6 +11,8 @@
 
 ![Desktop](gifs/desktop.gif) ![Mobile](gifs/mobile.gif)
 
+<img src="gifs/desktop.gif" alt="desktop gif" width="768"/>
+
 
 Acesso: https://elc1090.github.io/project1-2025a-GabrielUFSM/
 
