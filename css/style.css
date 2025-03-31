@@ -39,7 +39,7 @@ body {
 .container {
     max-width: 1920px;
     margin: 0 auto;
-    /*padding: 0 15px;*/
+    width: 80%;
 }
 
 /* Barra superior */
