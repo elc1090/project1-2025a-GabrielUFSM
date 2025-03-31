@@ -37,9 +37,9 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1920px;
     margin: 0 auto;
-    padding: 0 15px;
+    /*padding: 0 15px;*/
 }
 
 /* Barra superior */
@@ -59,24 +59,25 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+}
+
+.logos-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .utility-links {
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 15px;
 }
 
 .utility-links a, .sidebar-utility a {
     text-decoration: none;
     color: var(--text-color);
     font-size: 12px;
-    transition: color 0.3s;
-}
-
-.snkrs-logo {
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--text-color);
     transition: color 0.3s;
 }
 
