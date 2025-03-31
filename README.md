@@ -9,8 +9,7 @@ Acesso: https://elc1090.github.io/project1-2025a-GabrielUFSM/
 
 
 #### Desenvolvedor(a)
-Gabriel Bisognin Moro  
-Ciência da computação
+Gabriel Bisognin Moro - Ciência da computação
 
 #### Cliente
 Breno
@@ -19,18 +18,17 @@ Breno
 
 #### Site/app original
 
-##### Link
+##### Link do site original
 https://www.nike.com.br
 
 ##### Descrição
-Substitua este texto por uma descrição do site/app escolhido. Inclua observações sobre seu conteúdo, aparência e código.
+O design do site é minimalista, claro e seus banners possuem tôm escuro, no html, o site é estruturado com elementos semânticos como <section>, <header> e tags de navegação e utiliza extensivamente data-attributes para testes e funcionalidades (data-testid, data-hydration-on-demand).
+
 
 #### Demanda do(a) cliente
 Remake de: Navbar, conteúdo principal e footer. Sidebar para telas mobile
 
-#### Desenvolvimento
-
-Substitua este texto por uma descrição do processo de desenvolvimento, explicando suas escolhas para o remake e etapas do trabalho (por exemplo, como foi coletado o conteúdo, como você lidou com as demandas, etc.)    
+#### Desenvolvimento   
 
 **1.** Fiz o esqueleto da página, para isso, me baseei na própria separação do site da nike e deixei placeholders em toda a seções. Em seguida, implementei uma navbar básica no html e fiz o .css com as cores e uma formatação parecida com a do site e implementei a sidebar mobile, também no html. Nesta etapa, a sidebar ainda não funcionava. Esse foi o primeiro commit.  
 **2.** Depois, implementei o javascript para a sidebar de telas mobile. Aproveitei que aprendi javascript e implementei algo fora da demanda do cliente, um toggle para ativar ou desativar um modo noturno no site, para o conjunto de cores escuras, perguntei para o chatgpt quais usar.  
