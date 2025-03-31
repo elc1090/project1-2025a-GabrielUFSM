@@ -460,3 +460,202 @@ html.dark-mode .card-btn {
         grid-template-columns: 1fr;
     }
 }
+
+/* Footer */
+
+.footer-categories {
+    background-color: var(--bg-color);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 30px 0;
+}
+
+.footer-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.category-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 14px;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.footer-link:hover {
+    opacity: 1;
+}
+
+.show-more {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Footer Principal */
+.main-footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 0;
+}
+
+html.dark-mode .main-footer {
+    background-color: #000;
+}
+
+.footer-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer-heading {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.main-footer .footer-link {
+    color: #ccc;
+    opacity: 0.9;
+}
+
+.main-footer .footer-link:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+/* Redes Sociais */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.social-icon:hover {
+    background-color: #555;
+}
+
+/* Formas de Pagamento */
+.payment-heading {
+    margin-top: 30px;
+}
+
+.payment-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.payment-icon {
+    width: 40px;
+    height: 27px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* Botões de App */
+.app-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.app-button img {
+    height: 40px;
+    width: auto;
+}
+
+/* Footer Bottom - Copyright */
+.footer-bottom {
+    background-color: #000;
+    padding: 15px 0;
+    color: #999;
+    font-size: 12px;
+}
+
+.footer-legal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.legal-links {
+    display: flex;
+    gap: 20px;
+}
+
+.legal-link {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.legal-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 10px;
+    line-height: 1.4;
+}
+
+/* Responsividade do Footer */
+@media (max-width: 960px) {
+    .categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer-columns {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .categories-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-columns {
+        grid-template-columns: 1fr;
+    }
+    
+    .legal-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
