@@ -11,7 +11,6 @@
     <!-- Sidebar -->
     <div class="mobile-sidebar" id="mobileSidebar">
         <div class="sidebar-header">
-            <img src="img/nike-logo.svg" alt="Nike" class="sidebar-logo">
             <button id="closeSidebar" class="close-sidebar">&times;</button>
         </div>
         <div class="sidebar-content">
@@ -25,10 +24,6 @@
             </nav>
             <div class="sidebar-utility">
                 <a href="#">Acessibilidade</a>
-                <a href="#">Nike Journal</a>
-                <a href="#">Ajuda</a>
-                <a href="#">Junte-se a nós</a>
-                <a href="#" class="login-btn">Entrar</a>
             </div>
         </div>
     </div>
@@ -72,17 +67,17 @@
                     <div class="nav-actions">
                         <div class="search-box">
                             <button type="button" class="search-btn">
-                                <span class="search-icon">🔍</span>
+                                <span class="search-icon"><i class="fas fa-search"></i></span>
                             </button>
                             <input type="text" placeholder="Buscar">
                         </div>
-                        <button id="darkModeToggle" class="dark-mode-btn">
+                        <button class="favorites-btn"><i class="fas fa-heart"></i></button>
+                        <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+						<button id="darkModeToggle" class="dark-mode-btn">
                             <i class="fas fa-moon"></i>
                         </button>
-                        <button class="favorites-btn">❤</button>
-                        <button class="cart-btn">🛒</button>
                     </div>
-                    <button id="openSidebar" class="mobile-menu-btn" aria-label="Menu">☰</button>
+                    <button id="openSidebar" class="mobile-menu-btn" aria-label="Menu"><i class="fas fa-bars"></i></button>
                 </nav>
             </div>
         </div>
@@ -93,6 +88,11 @@
         <section class="banner-section">
             <a href="#" class="banner-link">
                 <img src="img/vomero-18.avif" alt="Nike Vomero 18 - Amortecimento máximo para uma corrida incomparável" class="banner-img">
+            </a>
+        </section>
+		<section class="banner-section-mobile">
+            <a href="#" class="banner-link">
+                <img src="img/Banner-Vomero-18-black-mobile.avif" alt="Nike Vomero 18 - Amortecimento máximo para uma corrida incomparável" class="banner-img">
             </a>
         </section>
     
@@ -107,11 +107,31 @@
                 <a href="#" class="btn-secondary">Feminino</a>
             </div>
         </section>
+		
+        <section class="banner-section-mobile">
+            <a href="#" class="banner-link">
+                <img src="img/banner-wmns-colecao-24-7-mobile.avif" alt="PARA TER CONFORTO O DIA TODO" class="banner-img">
+                <img src="img/copy-video-wmns-colecao-24-7-mobile.avif" class="banner-img">
+            </a>
+            <div class="cta-buttons">
+                <a href="#" class="btn-secondary">Masculino</a>
+                <a href="#" class="btn-secondary">Feminino</a>
+            </div>
+        </section>
     
         <!-- Seção de Chuteiras -->
         <section class="banner-section">
             <a href="#" class="banner-link">
                 <img src="img/Haaland-desk.jpg" alt="SEMPRE HAVERÁ GOLS - Seja inevitável com a Phantom GX II Erling Haaland" class="banner-img">
+            </a>
+            <div class="cta-buttons">
+                <a href="#" class="btn-secondary">Comprar</a>
+            </div>
+        </section>
+		
+        <section class="banner-section-mobile">
+            <a href="#" class="banner-link">
+                <img src="img/Banner-Haaland-14-02-25-mobile.jpg" alt="SEMPRE HAVERÁ GOLS - Seja inevitável com a Phantom GX II Erling Haaland" class="banner-img">
             </a>
             <div class="cta-buttons">
                 <a href="#" class="btn-secondary">Comprar</a>
@@ -143,6 +163,13 @@
                 <img src="img/banner-nike-app-25-02-25-desk.avif" alt="VEM NIKE APP" class="banner-img">
             </a>
         </section>
+
+        <section class="banner-section-mobile">
+            <a href="#" class="banner-link">
+                <img src="img/banner-nike-app-25-02-25-mobile.avif" alt="VEM NIKE APP" class="banner-img">
+            </a>
+        </section>
+
 
         <!-- Seção Conheça Também -->
         <section class="also-know-section">
