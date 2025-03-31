@@ -12,7 +12,7 @@
 ![Substitua a imagem ao lado por um screenshot do seu projeto](img/chops-ux-step-4.png "Screenshot do projeto. Imagem temporária extraída de https://mdswanson.com/static/chops-ux-step-4.png")
 
 
-Acesso: Substitua este texto pela URL para acesso ao site publicado
+Acesso: https://elc1090.github.io/project1-2025a-GabrielUFSM/
 
 
 #### Desenvolvedor(a)
