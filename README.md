@@ -9,7 +9,7 @@
 > 6. Entregue este README.md dentro da pasta raiz do seu repositório de entrega. Peça ajuda se não souber como editar ou entregar!
 > Opcional: você pode alterar a formatação do README, mas mantenha todas as informações solicitadas
 
-![Desktop](gifs/desktop.gif) ![Mobile(gifs/Mobile.gif)]
+![Desktop](gifs/desktop.gif) ![Mobile](gifs/mobile.gif)
 
 
 Acesso: https://elc1090.github.io/project1-2025a-GabrielUFSM/
