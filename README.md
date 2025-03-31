@@ -22,7 +22,7 @@ Breno
 https://www.nike.com.br
 
 ##### Descrição
-O design do site é minimalista, claro e seus banners possuem tôm escuro, no html, o site é estruturado com elementos semânticos como <section>, <header> e tags de navegação e utiliza extensivamente data-attributes para testes e funcionalidades (data-testid, data-hydration-on-demand).
+O design do site é minimalista, claro e seus banners possuem tôm escuro, no html, o site é estruturado com elementos semânticos como \<section\>, \<header\> e tags de navegação e utiliza extensivamente data-attributes para testes e funcionalidades (data-testid, data-hydration-on-demand).
 
 
 #### Demanda do(a) cliente
