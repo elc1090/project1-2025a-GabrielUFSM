@@ -79,6 +79,7 @@ body {
     color: var(--text-color);
     font-size: 12px;
     transition: color 0.3s;
+    z-index: 1005;
 }
 
 .main-nav-container {
@@ -90,12 +91,14 @@ body {
     padding: 15px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s;
+    z-index: 1006;
 }
 
 .main-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1008;
 }
 
 .nike-logo img, .sidebar-logo {
